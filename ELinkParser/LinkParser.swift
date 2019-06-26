@@ -8,10 +8,10 @@
 
 import UIKit
 
-class LinkObject: NSObject {
+open class LinkObject: NSObject {
     
-    var title: String = ""
-    var iconLink: String = ""
+    open var title: String = ""
+    open var iconLink: String = ""
     
     var link: String?
     
@@ -21,10 +21,9 @@ class LinkObject: NSObject {
     
 }
 
-class LinkParser: NSObject {
+open class LinkParser: NSObject {
 
-    
-    class func parse(link: String, result: @escaping ((LinkObject)->())) {
+    open class func parse(link: String, result: @escaping ((LinkObject)->())) {
         DispatchQueue.global().async {
             let resultData = LinkObject()
             resultData.link = link
