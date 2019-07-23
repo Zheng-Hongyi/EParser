@@ -16,6 +16,8 @@
 		1968249722C1F97F001AC64C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1968249122C1F97F001AC64C /* XPathQuery.m */; };
 		1968249922C1F9B5001AC64C /* LinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968249822C1F9B5001AC64C /* LinkParser.swift */; };
 		196824A022C1FBD1001AC64C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968249F22C1FBD1001AC64C /* libxml2.tbd */; };
+		19DDC8B122E70C850009611E /* TFHpple.m in Headers */ = {isa = PBXBuildFile; fileRef = 1968248D22C1F97F001AC64C /* TFHpple.m */; };
+		19DDC8B222E70C850009611E /* TFHppleElement.m in Headers */ = {isa = PBXBuildFile; fileRef = 1968249022C1F97F001AC64C /* TFHppleElement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +105,8 @@
 				1968249422C1F97F001AC64C /* XPathQuery.h in Headers */,
 				1968249522C1F97F001AC64C /* TFHpple.h in Headers */,
 				1968249222C1F97F001AC64C /* TFHppleElement.h in Headers */,
+				19DDC8B122E70C850009611E /* TFHpple.m in Headers */,
+				19DDC8B222E70C850009611E /* TFHppleElement.m in Headers */,
 				1968248522C1F949001AC64C /* ELinkParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
