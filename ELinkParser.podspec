@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ELinkParser"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Parse the link to title,icon link"
 
   # This description is used to generate tags and improve search results.
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  #spec.dependency "TFHpple", "~> 2.0.0"
+  # spec.dependency "TFHpple", "~> 2.0.0"
 
 end
