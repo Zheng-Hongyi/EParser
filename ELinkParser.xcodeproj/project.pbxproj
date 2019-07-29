@@ -8,30 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1968248522C1F949001AC64C /* ELinkParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968248322C1F949001AC64C /* ELinkParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1968249222C1F97F001AC64C /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968248C22C1F97F001AC64C /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1968249322C1F97F001AC64C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1968248D22C1F97F001AC64C /* TFHpple.m */; };
-		1968249422C1F97F001AC64C /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968248E22C1F97F001AC64C /* XPathQuery.h */; };
-		1968249522C1F97F001AC64C /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968248F22C1F97F001AC64C /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1968249622C1F97F001AC64C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1968249022C1F97F001AC64C /* TFHppleElement.m */; };
-		1968249722C1F97F001AC64C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1968249122C1F97F001AC64C /* XPathQuery.m */; };
 		1968249922C1F9B5001AC64C /* LinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968249822C1F9B5001AC64C /* LinkParser.swift */; };
 		196824A022C1FBD1001AC64C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968249F22C1FBD1001AC64C /* libxml2.tbd */; };
-		19DDC8B122E70C850009611E /* TFHpple.m in Headers */ = {isa = PBXBuildFile; fileRef = 1968248D22C1F97F001AC64C /* TFHpple.m */; };
-		19DDC8B222E70C850009611E /* TFHppleElement.m in Headers */ = {isa = PBXBuildFile; fileRef = 1968249022C1F97F001AC64C /* TFHppleElement.m */; };
+		64C370A1D32110956F36B370 /* Pods_ELinkParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86455693A9F132658C8E15EC /* Pods_ELinkParser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1968248022C1F949001AC64C /* ELinkParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELinkParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968248322C1F949001AC64C /* ELinkParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELinkParser.h; sourceTree = "<group>"; };
 		1968248422C1F949001AC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1968248C22C1F97F001AC64C /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
-		1968248D22C1F97F001AC64C /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
-		1968248E22C1F97F001AC64C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		1968248F22C1F97F001AC64C /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
-		1968249022C1F97F001AC64C /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
-		1968249122C1F97F001AC64C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		1968249822C1F9B5001AC64C /* LinkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkParser.swift; sourceTree = "<group>"; };
 		1968249F22C1FBD1001AC64C /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		86455693A9F132658C8E15EC /* Pods_ELinkParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELinkParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990D64BF3699E1407681180F /* Pods-ELinkParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELinkParser.debug.xcconfig"; path = "Target Support Files/Pods-ELinkParser/Pods-ELinkParser.debug.xcconfig"; sourceTree = "<group>"; };
+		D73D6A6B15910AE97A620D10 /* Pods-ELinkParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELinkParser.release.xcconfig"; path = "Target Support Files/Pods-ELinkParser/Pods-ELinkParser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +30,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				196824A022C1FBD1001AC64C /* libxml2.tbd in Frameworks */,
+				64C370A1D32110956F36B370 /* Pods_ELinkParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +43,7 @@
 				1968248222C1F949001AC64C /* ELinkParser */,
 				1968248122C1F949001AC64C /* Products */,
 				1968249E22C1FBD1001AC64C /* Frameworks */,
+				790A96F9E47689676DE23BC3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,32 +59,28 @@
 			isa = PBXGroup;
 			children = (
 				1968249822C1F9B5001AC64C /* LinkParser.swift */,
-				1968248B22C1F97F001AC64C /* TFHpple */,
 				1968248322C1F949001AC64C /* ELinkParser.h */,
 				1968248422C1F949001AC64C /* Info.plist */,
 			);
 			path = ELinkParser;
 			sourceTree = "<group>";
 		};
-		1968248B22C1F97F001AC64C /* TFHpple */ = {
-			isa = PBXGroup;
-			children = (
-				1968248C22C1F97F001AC64C /* TFHppleElement.h */,
-				1968248D22C1F97F001AC64C /* TFHpple.m */,
-				1968248E22C1F97F001AC64C /* XPathQuery.h */,
-				1968248F22C1F97F001AC64C /* TFHpple.h */,
-				1968249022C1F97F001AC64C /* TFHppleElement.m */,
-				1968249122C1F97F001AC64C /* XPathQuery.m */,
-			);
-			path = TFHpple;
-			sourceTree = "<group>";
-		};
 		1968249E22C1FBD1001AC64C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1968249F22C1FBD1001AC64C /* libxml2.tbd */,
+				86455693A9F132658C8E15EC /* Pods_ELinkParser.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790A96F9E47689676DE23BC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990D64BF3699E1407681180F /* Pods-ELinkParser.debug.xcconfig */,
+				D73D6A6B15910AE97A620D10 /* Pods-ELinkParser.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +90,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1968249422C1F97F001AC64C /* XPathQuery.h in Headers */,
-				1968249522C1F97F001AC64C /* TFHpple.h in Headers */,
-				1968249222C1F97F001AC64C /* TFHppleElement.h in Headers */,
-				19DDC8B122E70C850009611E /* TFHpple.m in Headers */,
-				19DDC8B222E70C850009611E /* TFHppleElement.m in Headers */,
 				1968248522C1F949001AC64C /* ELinkParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1968248822C1F949001AC64C /* Build configuration list for PBXNativeTarget "ELinkParser" */;
 			buildPhases = (
+				6BB699CC0D62E29819BC6A00 /* [CP] Check Pods Manifest.lock */,
 				1968247B22C1F949001AC64C /* Headers */,
 				1968247C22C1F949001AC64C /* Sources */,
 				1968247D22C1F949001AC64C /* Frameworks */,
@@ -174,15 +158,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BB699CC0D62E29819BC6A00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELinkParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1968247C22C1F949001AC64C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1968249622C1F97F001AC64C /* TFHppleElement.m in Sources */,
-				1968249722C1F97F001AC64C /* XPathQuery.m in Sources */,
 				1968249922C1F9B5001AC64C /* LinkParser.swift in Sources */,
-				1968249322C1F97F001AC64C /* TFHpple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +321,7 @@
 		};
 		1968248922C1F949001AC64C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990D64BF3699E1407681180F /* Pods-ELinkParser.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -324,6 +331,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = ELinkParser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -344,6 +352,7 @@
 		};
 		1968248A22C1F949001AC64C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73D6A6B15910AE97A620D10 /* Pods-ELinkParser.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -353,6 +362,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				INFOPLIST_FILE = ELinkParser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
