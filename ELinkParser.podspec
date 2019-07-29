@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ELinkParser"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Parse the link to title,icon link"
-
+swift_versions = "5.0"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ELinkParser/**/*.swift", "ELinkParser/**/*.h" 
+  spec.source_files  = "ELinkParser/*.swift","ELinkParser/**/*.h", "ELinkParser/*.modulemap" 
  # spec.exclude_files = "Classes/Exclu"
 
   spec.public_header_files = "ELinkParser/**/*.h"
