@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1963F1B022EEED82000DB526 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AA22EEED82000DB526 /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1963F1B122EEED82000DB526 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963F1AB22EEED82000DB526 /* TFHpple.m */; };
+		1963F1B222EEED82000DB526 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AC22EEED82000DB526 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1963F1B322EEED82000DB526 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AD22EEED82000DB526 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1963F1B422EEED82000DB526 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963F1AE22EEED82000DB526 /* TFHppleElement.m */; };
+		1963F1B522EEED82000DB526 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963F1AF22EEED82000DB526 /* XPathQuery.m */; };
 		1968248522C1F949001AC64C /* ELinkParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968248322C1F949001AC64C /* ELinkParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1968249922C1F9B5001AC64C /* LinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968249822C1F9B5001AC64C /* LinkParser.swift */; };
 		196824A022C1FBD1001AC64C /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968249F22C1FBD1001AC64C /* libxml2.tbd */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1963F1AA22EEED82000DB526 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		1963F1AB22EEED82000DB526 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		1963F1AC22EEED82000DB526 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		1963F1AD22EEED82000DB526 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		1963F1AE22EEED82000DB526 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		1963F1AF22EEED82000DB526 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		1968248022C1F949001AC64C /* ELinkParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELinkParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968248322C1F949001AC64C /* ELinkParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELinkParser.h; sourceTree = "<group>"; };
 		1968248422C1F949001AC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1963F1A922EEED82000DB526 /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				1963F1AA22EEED82000DB526 /* TFHppleElement.h */,
+				1963F1AB22EEED82000DB526 /* TFHpple.m */,
+				1963F1AC22EEED82000DB526 /* XPathQuery.h */,
+				1963F1AD22EEED82000DB526 /* TFHpple.h */,
+				1963F1AE22EEED82000DB526 /* TFHppleElement.m */,
+				1963F1AF22EEED82000DB526 /* XPathQuery.m */,
+			);
+			path = TFHpple;
+			sourceTree = "<group>";
+		};
 		1968247622C1F949001AC64C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +83,7 @@
 		1968248222C1F949001AC64C /* ELinkParser */ = {
 			isa = PBXGroup;
 			children = (
+				1963F1A922EEED82000DB526 /* TFHpple */,
 				1968249822C1F9B5001AC64C /* LinkParser.swift */,
 				1968248322C1F949001AC64C /* ELinkParser.h */,
 				1968248422C1F949001AC64C /* Info.plist */,
@@ -91,6 +117,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1968248522C1F949001AC64C /* ELinkParser.h in Headers */,
+				1963F1B322EEED82000DB526 /* TFHpple.h in Headers */,
+				1963F1B222EEED82000DB526 /* XPathQuery.h in Headers */,
+				1963F1B022EEED82000DB526 /* TFHppleElement.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1963F1B422EEED82000DB526 /* TFHppleElement.m in Sources */,
 				1968249922C1F9B5001AC64C /* LinkParser.swift in Sources */,
+				1963F1B522EEED82000DB526 /* XPathQuery.m in Sources */,
+				1963F1B122EEED82000DB526 /* TFHpple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
