@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1963F1B022EEED82000DB526 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AA22EEED82000DB526 /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1963F1B022EEED82000DB526 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AA22EEED82000DB526 /* TFHppleElement.h */; };
 		1963F1B122EEED82000DB526 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963F1AB22EEED82000DB526 /* TFHpple.m */; };
-		1963F1B222EEED82000DB526 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AC22EEED82000DB526 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1963F1B322EEED82000DB526 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AD22EEED82000DB526 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1963F1B222EEED82000DB526 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AC22EEED82000DB526 /* XPathQuery.h */; };
+		1963F1B322EEED82000DB526 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 1963F1AD22EEED82000DB526 /* TFHpple.h */; };
 		1963F1B422EEED82000DB526 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963F1AE22EEED82000DB526 /* TFHppleElement.m */; };
 		1963F1B522EEED82000DB526 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963F1AF22EEED82000DB526 /* XPathQuery.m */; };
 		1968248522C1F949001AC64C /* ELinkParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1968248322C1F949001AC64C /* ELinkParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +26,7 @@
 		1963F1AD22EEED82000DB526 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		1963F1AE22EEED82000DB526 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		1963F1AF22EEED82000DB526 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		1963F1B622EEF561000DB526 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		1968248022C1F949001AC64C /* ELinkParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELinkParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968248322C1F949001AC64C /* ELinkParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELinkParser.h; sourceTree = "<group>"; };
 		1968248422C1F949001AC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,7 +50,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1963F1A922EEED82000DB526 /* TFHpple */ = {
+		1963F1B722EEFA38000DB526 /* TFHpple */ = {
 			isa = PBXGroup;
 			children = (
 				1963F1AA22EEED82000DB526 /* TFHppleElement.h */,
@@ -83,10 +84,11 @@
 		1968248222C1F949001AC64C /* ELinkParser */ = {
 			isa = PBXGroup;
 			children = (
-				1963F1A922EEED82000DB526 /* TFHpple */,
+				1963F1B722EEFA38000DB526 /* TFHpple */,
 				1968249822C1F9B5001AC64C /* LinkParser.swift */,
 				1968248322C1F949001AC64C /* ELinkParser.h */,
 				1968248422C1F949001AC64C /* Info.plist */,
+				1963F1B622EEF561000DB526 /* module.modulemap */,
 			);
 			path = ELinkParser;
 			sourceTree = "<group>";
@@ -376,6 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.renjianshenhua.ELinkParser;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ELinkParser";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -407,6 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.renjianshenhua.ELinkParser;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/ELinkParser";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

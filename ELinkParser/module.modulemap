@@ -1,0 +1,4 @@
+module TFHpple [system] {
+    header "TFHpple/TFHpple.h"
+    export *
+}

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TFHpple
 
 open class LinkObject: NSObject {
     
